@@ -1,0 +1,46 @@
+SET PATH=C:\Keil_v5\ARM\ARMCLANG\Bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\HP\HP One Agent;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\20333\AppData\Local\Microsoft\WindowsApps;C:\Users\20333\.dotnet\tools;C:\Users\20333\AppData\Local\Programs\Python\Python38;C:\Users\20333\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\20333\AppData\Local\Programs\Microsoft VS Code\bin
+SET ARMCC6_ASMOPT=--diag_suppress=9931
+SET ARMCC6_CCOPT=--diag_suppress=9931
+SET ARMCC6_LINKOPT=--diag_suppress=9931
+SET CPU_TYPE=STM32F407ZGTx
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=GTIM
+SET CPU_CLOCK=0x007A1200
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\startup_stm32f407xx._ac"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\main.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_it.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\system_stm32f4xx.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\delay.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\sys.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\usart.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_cortex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_dma.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_gpio.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_rcc.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_rcc_ex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_usart.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_pwr.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_pwr_ex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_uart.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_dma_ex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_tim.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_tim_ex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_i2c.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_sram.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_ll_fsmc.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_dac.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_dac_ex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_i2c_ex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_adc.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\stm32f4xx_hal_adc_ex.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\gtim.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\control.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\wt.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\myiic.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\newiic.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\led.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\adc.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @"..\..\output\btim.__i"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\ArmLink" --Via "..\..\Output\atk_f407.lnp"
+"C:\Keil_v5\ARM\ARMCLANG\Bin\fromelf.exe" "..\..\Output\atk_f407.axf" --i32combined --output "..\..\Output\atk_f407.hex"

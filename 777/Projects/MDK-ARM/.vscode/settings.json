@@ -1,0 +1,6 @@
+{
+    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
+    "C_Cpp.default.enableConfigurationSquiggles": true,
+    "html.validate.scripts": true,
+    "html.validate.styles": true
+}

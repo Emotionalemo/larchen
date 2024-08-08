@@ -1,0 +1,6 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../User -I ../../Drivers -I ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../../Drivers/CMSIS/Include -I ../../Drivers/STM32F4xx_HAL_Driver/Inc -I ../../Middlewares
+-IC:/Users/20333/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+-D__UVISION_VERSION="539" -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx
+-o ../../output/system_stm32f4xx.o -MD "../../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c"

@@ -1,0 +1,4 @@
+Load "..\\..\\Output\\atk_f407.axf" 
+No ST-LINK detected
+Error: Flash Download failed  -  Target DLL has been cancelled
+Flash Load finished at 21:31:47
